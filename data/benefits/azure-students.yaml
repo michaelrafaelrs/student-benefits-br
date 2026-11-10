@@ -12,16 +12,16 @@ benefit:
   base_price: null
 eligibility:
   education_levels: [graduacao]
-  levels_note: "Requer instituição credenciada de ensino superior e matrícula conforme os termos; não garante aprovação."
+  levels_note: "Estudante em tempo integral de instituição superior credenciada que concede diploma; cursos livres e MOOCs excluídos."
   min_age: 18
-  country_status: nao_verificado
+  country_status: brasil_sem_exclusao_explicita
   verification: email_institucional
-  restrictions: "Termos acadêmicos e de uso se aplicam; cursos livres não devem ser presumidos elegíveis."
+  restrictions: "Sem cartão de crédito para adesão; renovação anual mediante elegibilidade; uso sujeito aos termos."
 links:
   official: https://azure.microsoft.com/pt-br/resources/students
-  terms: https://azure.microsoft.com/en-us/pricing/offers/ms-azr-0170p
+  terms: https://learn.microsoft.com/pt-br/azure/education-hub/about-azure-for-students
 verification:
   status: confirmed_official
   checked_on: "2026-11-09"
-  evidence: "Oferta oficial de USD 100 por 12 meses e critérios acadêmicos."
+  evidence: "Documentação Microsoft Learn: USD 100, 12 meses, idade mínima e matrícula integral."
   brazil_eligibility_confirmed: false
