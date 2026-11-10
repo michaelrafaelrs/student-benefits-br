@@ -1,0 +1,27 @@
+id: microsoft-azure-for-students
+company: Microsoft
+product: Azure for Students
+category: cloud
+benefit:
+  type: credit
+  description: Crédito promocional de USD 100 para serviços Azure elegíveis.
+  discount_percent: null
+  credit_amount: 100
+  currency: USD
+  duration: 12_meses
+  base_price: null
+eligibility:
+  education_levels: [graduacao]
+  levels_note: "Requer instituição credenciada de ensino superior e matrícula conforme os termos; não garante aprovação."
+  min_age: 18
+  country_status: nao_verificado
+  verification: email_institucional
+  restrictions: "Termos acadêmicos e de uso se aplicam; cursos livres não devem ser presumidos elegíveis."
+links:
+  official: https://azure.microsoft.com/pt-br/resources/students
+  terms: https://azure.microsoft.com/en-us/pricing/offers/ms-azr-0170p
+verification:
+  status: confirmed_official
+  checked_on: "2026-11-09"
+  evidence: "Oferta oficial de USD 100 por 12 meses e critérios acadêmicos."
+  brazil_eligibility_confirmed: false
