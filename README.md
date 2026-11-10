@@ -1,40 +1,44 @@
 # Student Benefits BR 🎓
 
-Catálogo aberto e colaborativo de **benefícios, descontos, créditos e licenças educacionais para estudantes no Brasil**.
+Catálogo público e colaborativo de benefícios educacionais, descontos, licenças e créditos para estudantes no Brasil.
 
-> **Atenção:** um benefício existir não significa que esteja disponível no Brasil nem que todos os níveis de ensino sejam aceitos. Confira sempre os termos oficiais.
+> **Importante:** um programa existir não garante aprovação de qualquer estudante brasileiro. Consulte sempre os termos oficiais. Cursos livres fazem parte do levantamento, mas não são automaticamente elegíveis.
 
-## Catálogo inicial
+## Catálogo
 
-| Empresa | Programa | Benefício | Elegibilidade no Brasil |
+| Empresa | Programa | Benefício | Restrições principais |
 | --- | --- | --- | --- |
-| GitHub | [Student Developer Pack](https://education.github.com/pack) | Pacote de ofertas e ferramentas | Pendente de validação específica |
-| JetBrains | [Educational License](https://www.jetbrains.com/community/education/) | Licença educacional gratuita | Pendente de validação específica |
-| Microsoft | [Azure for Students](https://azure.microsoft.com/pt-br/resources/students) | USD 100 em créditos por 12 meses | Pendente de validação específica |
+| GitHub | [Student Developer Pack](https://education.github.com/pack) | Pacote de ofertas | 13+; curso que concede diploma/grau; comprovação |
+| JetBrains | [Educational License](https://www.jetbrains.com/pt-br/academy/student-pack/) | Licença gratuita | Programa credenciado de longa duração; uso não comercial |
+| JetBrains | [Graduation Discount](https://sales.jetbrains.com/hc/en-gb/articles/207241195-Do-you-offer-free-educational-licenses-for-students-and-teachers) | 40% de desconto | Exige licença estudantil anterior elegível |
+| Microsoft | [Azure for Students](https://learn.microsoft.com/pt-br/azure/education-hub/about-azure-for-students) | USD 100 por 12 meses | 18+; ensino superior integral credenciado |
 
-**Os registros acima documentam programas oficiais, não uma garantia de aprovação.**
+**Brasil:** regras gerais documentadas; aprovação individual de estudante brasileiro ainda não testada.
 
-## Público
+## Quem pode consultar?
 
-Ensino fundamental, médio, técnico, graduação, pós-graduação, cursos livres e bootcamps. A inclusão de uma modalidade na pesquisa **não** confirma sua elegibilidade em um programa específico.
+Ensino fundamental, médio, técnico, graduação, pós-graduação, cursos livres e bootcamps. O catálogo explicita quando determinada modalidade **não** atende aos requisitos do fornecedor.
 
-## Classificação
+## Tipos de economia
 
-- **Gratuito:** licença, assinatura ou recurso sem cobrança para estudantes elegíveis.
-- **Descontos:** faixas de 1–24%, 25–49%, 50–74%, 75–89% e 90–99%.
-- **Créditos:** saldo promocional em moeda ou unidades de uso.
-- **Pacotes:** múltiplas ofertas com regras individuais.
+- **Gratuito:** licença ou recurso sem cobrança para estudantes elegíveis, com possíveis restrições.
+- **Descontos percentuais:** faixas 1–24%, 25–49%, 50–74%, 75–89% e 90–99%.
+- **Créditos:** saldo promocional; não é desconto percentual.
+- **Pacotes:** benefícios individuais de fornecedores e parceiros; termos variam.
 
-Não confundir créditos com desconto percentual nem gratuidade educacional com licença comercial.
+Não usar 100% de desconto como sinônimo de licença comercial irrestrita.
 
-## Dados e contribuição
+## Dados e evidências
 
-Cada benefício fica em `data/benefits/*.yaml`, com fontes oficiais, elegibilidade, restrições e verificação. Veja [CONTRIBUTING.md](CONTRIBUTING.md) e [plano de levantamento](docs/LEVANTAMENTO.md).
+- Registros: [data/benefits](data/benefits)
+- Fontes e validações: [docs/VALIDACAO.md](docs/VALIDACAO.md)
+- Plano de pesquisa: [docs/LEVANTAMENTO.md](docs/LEVANTAMENTO.md)
+- Contribuições: [CONTRIBUTING.md](CONTRIBUTING.md)
 
 ## Estado
 
-**v0.1.0 — catálogo inicial.** Três registros de referência; disponibilidade e elegibilidade brasileira ainda exigem validação adicional. Preços e condições podem mudar.
+**Catálogo inicial em expansão.** Quatro registros com referências oficiais, sem validação de aprovação individual no Brasil. Informações podem mudar.
 
 ## Licença
 
-MIT — veja [LICENSE](LICENSE).
+MIT — [LICENSE](LICENSE).
