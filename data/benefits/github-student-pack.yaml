@@ -4,24 +4,24 @@ product: Student Developer Pack
 category: desenvolvimento
 benefit:
   type: bundle
-  description: Pacote de ofertas do GitHub e parceiros para estudantes verificados.
+  description: Pacote de ferramentas e ofertas de parceiros para estudantes verificados.
   discount_percent: null
   credit_amount: null
   currency: null
-  duration: enquanto_elegivel
+  duration: sujeito_a_revalidacao
   base_price: null
 eligibility:
-  education_levels: []
-  levels_note: "Modalidades específicas pendentes de verificação; cursos livres e bootcamps não são automaticamente elegíveis."
+  education_levels: [medio, tecnico, graduacao, pos_graduacao]
+  levels_note: "Curso deve conceder diploma ou grau; cursos informais não elegíveis, salvo bootcamp integrante do GitHub Campus Program."
   min_age: 13
-  country_status: nao_verificado
+  country_status: brasil_sem_exclusao_explicita
   verification: comprovacao_academica
-  restrictions: "Aprovação acadêmica exigida; ofertas de parceiros possuem termos próprios."
+  restrictions: "Validação dura dois anos; parceiros têm condições e restrições próprias."
 links:
   official: https://education.github.com/pack
-  terms: https://education.github.com/pack/join
+  terms: https://docs.github.com/pt/education/about-github-education/github-education-for-students/github-terms-and-conditions-for-the-student-developer-pack
 verification:
   status: confirmed_official
   checked_on: "2026-11-09"
-  evidence: "Programa oficial e exigência de verificação acadêmica."
+  evidence: "Documentação oficial de candidatura, critérios e termos."
   brazil_eligibility_confirmed: false
