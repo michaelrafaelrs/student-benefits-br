@@ -1,0 +1,27 @@
+id: jetbrains-educational-license
+company: JetBrains
+product: Educational License
+category: desenvolvimento
+benefit:
+  type: free_educational_license
+  description: Licença educacional gratuita para ferramentas cobertas pelo programa.
+  discount_percent: null
+  credit_amount: null
+  currency: null
+  duration: enquanto_elegivel
+  base_price: null
+eligibility:
+  education_levels: [medio, tecnico, graduacao, pos_graduacao]
+  levels_note: "Modalidades sujeitas a requisitos de instituição e duração; esta lista não garante aprovação."
+  min_age: null
+  country_status: nao_verificado
+  verification: comprovacao_academica
+  restrictions: "Uso educacional não comercial; cursos curtos e bootcamps não se qualificam segundo FAQ oficial."
+links:
+  official: https://www.jetbrains.com/community/education/
+  terms: https://sales.jetbrains.com/hc/en-gb/articles/11557859965074-I-am-a-student-in-an-online-course-bootcamp-training-class-or-similar-program-Am-I-eligible-for-a-free-license
+verification:
+  status: confirmed_official
+  checked_on: "2026-11-09"
+  evidence: "Página educacional e FAQ oficial de elegibilidade."
+  brazil_eligibility_confirmed: false
