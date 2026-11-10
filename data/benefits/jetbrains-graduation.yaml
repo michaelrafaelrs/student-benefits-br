@@ -1,0 +1,27 @@
+id: jetbrains-graduation-discount
+company: JetBrains
+product: Graduation Discount
+category: desenvolvimento
+benefit:
+  type: percentage_discount
+  description: Desconto de formatura em assinatura pessoal elegível.
+  discount_percent: 40
+  credit_amount: null
+  currency: null
+  duration: ate_2_anos_apos_licenca_estudantil
+  base_price: null
+eligibility:
+  education_levels: [egressos]
+  levels_note: "Exige licença estudantil anterior elegível."
+  min_age: null
+  country_status: brasil_sem_exclusao_explicita
+  verification: conta_jetbrains
+  restrictions: "Para bootcamps com licença anterior, desconto de formatura disponível somente até 01/04/2027."
+links:
+  official: https://sales.jetbrains.com/hc/en-gb/articles/207241195-Do-you-offer-free-educational-licenses-for-students-and-teachers
+  terms: https://sales.jetbrains.com/hc/en-gb/articles/23404086433298-How-can-students-renew-their-subscriptions-after-finishing-a-course
+verification:
+  status: confirmed_official
+  checked_on: "2026-11-09"
+  evidence: "FAQ JetBrains 2026: desconto de 40% e condições de formatura."
+  brazil_eligibility_confirmed: false
