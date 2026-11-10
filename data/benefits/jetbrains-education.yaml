@@ -4,7 +4,7 @@ product: Educational License
 category: desenvolvimento
 benefit:
   type: free_educational_license
-  description: Licença educacional gratuita para ferramentas cobertas pelo programa.
+  description: Licença educacional gratuita para IDEs e ferramentas incluídas.
   discount_percent: null
   credit_amount: null
   currency: null
@@ -12,16 +12,16 @@ benefit:
   base_price: null
 eligibility:
   education_levels: [medio, tecnico, graduacao, pos_graduacao]
-  levels_note: "Modalidades sujeitas a requisitos de instituição e duração; esta lista não garante aprovação."
+  levels_note: "Somente instituições credenciadas e programas com um ou mais anos de estudo integral; nível técnico depende de credenciamento e duração."
   min_age: null
-  country_status: nao_verificado
+  country_status: brasil_sem_exclusao_explicita
   verification: comprovacao_academica
-  restrictions: "Uso educacional não comercial; cursos curtos e bootcamps não se qualificam segundo FAQ oficial."
+  restrictions: "Uso não comercial; cursos curtos e bootcamps não elegíveis. Novos cupons de bootcamp encerrados após 01/10/2026."
 links:
-  official: https://www.jetbrains.com/community/education/
+  official: https://www.jetbrains.com/pt-br/academy/student-pack/
   terms: https://sales.jetbrains.com/hc/en-gb/articles/11557859965074-I-am-a-student-in-an-online-course-bootcamp-training-class-or-similar-program-Am-I-eligible-for-a-free-license
 verification:
   status: confirmed_official
   checked_on: "2026-11-09"
-  evidence: "Página educacional e FAQ oficial de elegibilidade."
+  evidence: "FAQ oficial atualizado em 2026 e página de licenças educacionais."
   brazil_eligibility_confirmed: false
