@@ -1,0 +1,25 @@
+id: google-ai-student-offer
+company: Google
+product: Google One AI Student Offer
+category: ia
+benefit:
+  type: promotional_subscription
+  description: "12 meses de plano de IA sem cobrança; plano varia conforme país da instituição."
+  discount_percent: null
+  credit_amount: null
+  currency: null
+  duration: 12_meses
+  base_price: null
+eligibility:
+  education_levels: [graduacao, pos_graduacao]
+  min_age: 18
+  country_status: nao_verificado
+  verification: SheerID, conta pessoal Google e meio de pagamento
+  restrictions: "Resgatar até 31/12/2026; cobrança automática após período; não disponível em Workspace for Education."
+links:
+  official: https://one.google.com/offer/studentoffer8?hl=pt-BR
+  terms: https://one.google.com/intl/pt-BR_br/about/google-ai-plans/
+verification:
+  status: confirmed_official
+  checked_on: "2026-11-10"
+  brazil_eligibility_confirmed: false
