@@ -1,0 +1,25 @@
+id: aws-educate
+company: Amazon Web Services
+product: AWS Educate
+category: cloud
+benefit:
+  type: free_learning
+  description: "Cursos e laboratórios práticos gratuitos; aberto também a não estudantes."
+  discount_percent: null
+  credit_amount: null
+  currency: null
+  duration: sem_prazo_publicado
+  base_price: null
+eligibility:
+  education_levels: [todos]
+  min_age: 13
+  country_status: nao_verificado
+  verification: email
+  restrictions: "Programa gratuito geral, não desconto estudantil exclusivo; menores precisam observar termos e envolvimento de responsável/educador."
+links:
+  official: https://aws.amazon.com/pt/education/awseducate/
+  terms: https://aws.amazon.com/legal/learner-terms-conditions/
+verification:
+  status: confirmed_official
+  checked_on: "2026-11-10"
+  brazil_eligibility_confirmed: false
