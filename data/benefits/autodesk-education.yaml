@@ -1,0 +1,25 @@
+id: autodesk-education
+company: Autodesk
+product: Autodesk Education
+category: design
+benefit:
+  type: free_educational_license
+  description: "Acesso gratuito por um ano a softwares selecionados, renovável com elegibilidade."
+  discount_percent: null
+  credit_amount: null
+  currency: null
+  duration: 12_meses_renovavel
+  base_price: null
+eligibility:
+  education_levels: [medio, tecnico, graduacao, pos_graduacao]
+  min_age: null
+  country_status: nao_verificado
+  verification: comprovacao_academica
+  restrictions: "Somente uso educacional, sem fins comerciais; instituição qualificada e idade mínima aplicável."
+links:
+  official: https://www.autodesk.com/education/edu-software/overview
+  terms: https://www.autodesk.com/education/edu-software/overview
+verification:
+  status: confirmed_official
+  checked_on: "2026-11-10"
+  brazil_eligibility_confirmed: false
