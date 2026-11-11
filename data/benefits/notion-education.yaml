@@ -1,0 +1,25 @@
+id: notion-education
+company: Notion
+product: Notion Education Plan
+category: produtividade
+benefit:
+  type: free_educational_license
+  description: "Plano Education gratuito para workspace individual de estudante elegível."
+  discount_percent: null
+  credit_amount: null
+  currency: null
+  duration: revalidacao_anual
+  base_price: null
+eligibility:
+  education_levels: [graduacao, pos_graduacao]
+  min_age: null
+  country_status: nao_verificado
+  verification: email_institucional
+  restrictions: "Instituição deve constar no WHED; um membro; ensino fundamental e médio não elegível."
+links:
+  official: https://www.notion.com/pt/help/notion-for-education
+  terms: https://www.notion.com/pricing
+verification:
+  status: confirmed_official
+  checked_on: "2026-11-10"
+  brazil_eligibility_confirmed: false
