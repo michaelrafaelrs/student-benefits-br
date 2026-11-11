@@ -1,0 +1,25 @@
+id: microsoft-365-student-discount
+company: Microsoft
+product: Microsoft 365 student offer
+category: produtividade
+benefit:
+  type: percentage_discount
+  description: "Oferta anunciada de 50% para estudantes de ensino superior elegíveis."
+  discount_percent: 50
+  credit_amount: null
+  currency: null
+  duration: conforme_oferta
+  base_price: null
+eligibility:
+  education_levels: [graduacao, pos_graduacao]
+  min_age: null
+  country_status: nao_verificado
+  verification: email acadêmico
+  restrictions: "Oferta pode variar por país e região; preço e checkout brasileiro pendentes de confirmação."
+links:
+  official: https://www.microsoft.com/en/education/students
+  terms: https://www.microsoft.com/en/education/students
+verification:
+  status: confirmed_official
+  checked_on: "2026-11-10"
+  brazil_eligibility_confirmed: false
