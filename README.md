@@ -1,44 +1,52 @@
 # Student Benefits BR 🎓
 
-Catálogo público e colaborativo de benefícios educacionais, descontos, licenças e créditos para estudantes no Brasil.
+Catálogo colaborativo de **benefícios educacionais, descontos, licenças, créditos e programas de aprendizado** relevantes para estudantes no Brasil.
 
-> **Importante:** um programa existir não garante aprovação de qualquer estudante brasileiro. Consulte sempre os termos oficiais. Cursos livres fazem parte do levantamento, mas não são automaticamente elegíveis.
+> **Importante:** a existência de um programa não garante elegibilidade no Brasil. Os dados foram levantados em fontes oficiais, mas a aprovação de contas brasileiras não foi testada.
 
-## Catálogo
+## Catálogo — 12 registros
 
-| Empresa | Programa | Benefício | Restrições principais |
+| Empresa | Programa | Benefício | Condição essencial |
 | --- | --- | --- | --- |
-| GitHub | [Student Developer Pack](https://education.github.com/pack) | Pacote de ofertas | 13+; curso que concede diploma/grau; comprovação |
-| JetBrains | [Educational License](https://www.jetbrains.com/pt-br/academy/student-pack/) | Licença gratuita | Programa credenciado de longa duração; uso não comercial |
-| JetBrains | [Graduation Discount](https://sales.jetbrains.com/hc/en-gb/articles/207241195-Do-you-offer-free-educational-licenses-for-students-and-teachers) | 40% de desconto | Exige licença estudantil anterior elegível |
-| Microsoft | [Azure for Students](https://learn.microsoft.com/pt-br/azure/education-hub/about-azure-for-students) | USD 100 por 12 meses | 18+; ensino superior integral credenciado |
+| GitHub | [Student Developer Pack](https://education.github.com/pack) | Pacote de ofertas | Verificação acadêmica |
+| JetBrains | [Educational License](https://www.jetbrains.com/community/education/) | Licença gratuita | Instituição elegível; uso não comercial |
+| JetBrains | [Graduation Discount](https://sales.jetbrains.com/hc/en-gb/articles/207241195-Do-you-offer-free-educational-licenses-for-students-and-teachers) | 40% | Licença educacional anterior |
+| Microsoft | [Azure for Students](https://learn.microsoft.com/pt-br/azure/education-hub/about-azure-for-students) | US$ 100 por 12 meses | Ensino superior integral, 18+ |
+| Google | [Google One AI Student Offer](https://one.google.com/offer/studentoffer8?hl=pt-BR) | 12 meses sem cobrança | Superior, 18+, SheerID; até 31/12/2026 |
+| Microsoft | [Microsoft 365 Student Offer](https://www.microsoft.com/en/education/students) | 50% anunciado | Ensino superior; verificar país e preço |
+| Microsoft | [Azure for Students Starter](https://learn.microsoft.com/pt-br/azure/education-hub/about-azure-for-students-starter) | Serviços selecionados gratuitos | Ensino fundamental/médio verificado |
+| AWS | [AWS Educate](https://aws.amazon.com/pt/education/awseducate/) | Cursos e laboratórios gratuitos | Aberto também a não estudantes, 13+ |
+| AWS | [AWS Academy](https://aws.amazon.com/pt/training/awsacademy/) | Currículo e recursos educacionais | Instituição participante |
+| Oracle | [Oracle Academy](https://academy.oracle.com/pt-br/oa-student.html) | Recursos educacionais | Adesão pela instituição, não individual |
+| Notion | [Education Plan](https://www.notion.com/pt/help/notion-for-education) | Plano individual gratuito | Superior reconhecido no WHED; e-mail institucional |
+| Autodesk | [Education](https://www.autodesk.com/education/edu-software/overview) | Software gratuito por 1 ano | Uso educacional, sem fins comerciais |
 
-**Brasil:** regras gerais documentadas; aprovação individual de estudante brasileiro ainda não testada.
+## Classificação
 
-## Quem pode consultar?
+- **Gratuito educacional:** licença ou recurso gratuito sujeito a regras acadêmicas.
+- **Desconto:** percentual documentado com condições; o preço-base pode variar.
+- **Crédito:** saldo promocional, não equivalente a desconto percentual.
+- **Programa institucional:** exige participação da escola ou universidade.
+- **Gratuito geral:** aberto a qualquer pessoa, incluído como referência, **não** como desconto exclusivo para estudantes.
 
-Ensino fundamental, médio, técnico, graduação, pós-graduação, cursos livres e bootcamps. O catálogo explicita quando determinada modalidade **não** atende aos requisitos do fornecedor.
+**Atenção:** Oracle Cloud Free Tier não é um benefício estudantil exclusivo e por isso não consta como desconto educacional. AWS Educate é gratuito também para não estudantes e está sinalizado dessa forma.
 
-## Tipos de economia
+## Público
 
-- **Gratuito:** licença ou recurso sem cobrança para estudantes elegíveis, com possíveis restrições.
-- **Descontos percentuais:** faixas 1–24%, 25–49%, 50–74%, 75–89% e 90–99%.
-- **Créditos:** saldo promocional; não é desconto percentual.
-- **Pacotes:** benefícios individuais de fornecedores e parceiros; termos variam.
+Ensino fundamental, médio, técnico, graduação, pós-graduação, cursos livres e bootcamps. **Estar no público da pesquisa não significa ser elegível a todas as ofertas.**
 
-Não usar 100% de desconto como sinônimo de licença comercial irrestrita.
+## Arquivos
 
-## Dados e evidências
-
-- Registros: [data/benefits](data/benefits)
-- Fontes e validações: [docs/VALIDACAO.md](docs/VALIDACAO.md)
-- Plano de pesquisa: [docs/LEVANTAMENTO.md](docs/LEVANTAMENTO.md)
-- Contribuições: [CONTRIBUTING.md](CONTRIBUTING.md)
+- [Registros YAML](data/benefits)
+- [Fontes e validações iniciais](docs/VALIDACAO.md)
+- [Plano de levantamento](docs/LEVANTAMENTO.md)
+- [Como contribuir](CONTRIBUTING.md)
+- [Validação automatizada](scripts/validate_catalog.py)
 
 ## Estado
 
-**Catálogo inicial em expansão.** Quatro registros com referências oficiais, sem validação de aprovação individual no Brasil. Informações podem mudar.
+**12 registros iniciais**, com fontes oficiais. Critérios de idade, instituições, país, preços e duração podem mudar. Para condições de ofertas temporárias, confira o fornecedor antes de solicitar.
 
 ## Licença
 
-MIT — [LICENSE](LICENSE).
+[MIT](LICENSE).
