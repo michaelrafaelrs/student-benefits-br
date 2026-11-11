@@ -1,0 +1,25 @@
+id: microsoft-azure-students-starter
+company: Microsoft
+product: Azure for Students Starter
+category: cloud
+benefit:
+  type: free_educational_access
+  description: "Acesso gratuito a serviços selecionados Azure para estudantes verificados de ensino básico e médio."
+  discount_percent: null
+  credit_amount: null
+  currency: null
+  duration: enquanto_elegivel
+  base_price: null
+eligibility:
+  education_levels: [fundamental, medio]
+  min_age: null
+  country_status: nao_verificado
+  verification: verificacao_academica
+  restrictions: "Não é crédito de US$ 100 do Azure for Students; MOOC e treinamento comercial não elegíveis."
+links:
+  official: https://learn.microsoft.com/pt-br/azure/education-hub/about-azure-for-students-starter
+  terms: https://learn.microsoft.com/pt-br/azure/education-hub/azure-dev-tools-teaching/azure-students-starter-program
+verification:
+  status: confirmed_official
+  checked_on: "2026-11-10"
+  brazil_eligibility_confirmed: false
