@@ -1,0 +1,25 @@
+id: aws-academy
+company: Amazon Web Services
+product: AWS Academy
+category: cloud
+benefit:
+  type: institutional_education
+  description: "Currículo gratuito para instituições participantes e benefícios de aprendizado para alunos."
+  discount_percent: null
+  credit_amount: null
+  currency: null
+  duration: conforme_instituicao
+  base_price: null
+eligibility:
+  education_levels: [graduacao, tecnico]
+  min_age: null
+  country_status: nao_verificado
+  verification: instituicao_participante
+  restrictions: "Acesso por instituição participante; Skill Builder por 12 meses conforme programa."
+links:
+  official: https://aws.amazon.com/pt/training/awsacademy/
+  terms: https://aws.amazon.com/legal/learner-terms-conditions/
+verification:
+  status: confirmed_official
+  checked_on: "2026-11-10"
+  brazil_eligibility_confirmed: false
