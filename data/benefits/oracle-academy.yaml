@@ -1,0 +1,25 @@
+id: oracle-academy
+company: Oracle
+product: Oracle Academy
+category: desenvolvimento
+benefit:
+  type: institutional_education
+  description: "Recursos curriculares, software e aprendizagem gratuitos por instituições associadas."
+  discount_percent: null
+  credit_amount: null
+  currency: null
+  duration: conforme_instituicao
+  base_price: null
+eligibility:
+  education_levels: [medio, tecnico, graduacao, pos_graduacao]
+  min_age: null
+  country_status: nao_verificado
+  verification: instituicao_membro
+  restrictions: "Alunos não podem aderir individualmente como membros; requer instituição participante."
+links:
+  official: https://academy.oracle.com/pt-br/oa-student.html
+  terms: https://academy.oracle.com/pt-br/membership-join-oracle-academy.html
+verification:
+  status: confirmed_official
+  checked_on: "2026-11-10"
+  brazil_eligibility_confirmed: false
